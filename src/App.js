@@ -33,7 +33,7 @@ function App() {
     if(mode === 'light'){
       setMode('dark');
       document.body.style.backgroundColor = '#042743'; //state and toggle fun app.js me hai isiliye hum aisa kr sakte hai drctly
-      showAlert("Dark mode has been enabled", "success"); //showalert fun ko call kiya ,msg and type show hoga
+      showAlert("Dark mode has been enabled", "success"); //showalert fun ko call kiya,msg and type show hoga
       document.title = 'TextUtils - Dark Mode';
     }
     else{
